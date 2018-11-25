@@ -1,4 +1,18 @@
-body {
-	background: blue;
-	
+* {
+	&, &:before, &:after {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+}
+
+html {
+	font-family: Arial, sans-serif;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+.product-image {
+	max-height: 200px;
+	object-fit: contain;
 }
