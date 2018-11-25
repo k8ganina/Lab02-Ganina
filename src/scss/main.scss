@@ -6,13 +6,41 @@
 	}
 }
 
-html {
-	font-family: Arial, sans-serif;
-}
 
 @import "~bootstrap/scss/bootstrap";
+
+body {
+	font-family: Bodoni, sans-serif;
+	background-color: #d4e8dc;
+}
+
 
 .product-image {
 	max-height: 200px;
 	object-fit: contain;
+}
+header, footer {
+  background-color: #20c997;
+}
+header {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #6f42c1;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+footer {
+  font-style: oblique;
+  margin-top: 20px;
+}
+.product-title {
+  color: #6f42c1;
+}
+.product-price, .special-product-price {
+  font-weight: bold;
+}
+.card {
+	border-color: #6f42c1;
+    border-radius: 0.50rem;
 }
