@@ -6325,6 +6325,13 @@ body {
   max-height: 200px;
   object-fit: contain; }
 
+.btn-add-to-cart {
+  object-fit: contain;
+  max-height: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px; }
+
 header, footer {
   background-color: #20c997; }
 
