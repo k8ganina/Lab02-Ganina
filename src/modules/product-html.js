@@ -12,8 +12,6 @@ let _makeHtml = ({
 	$product.append($(`<span class="product-price">`).text(price));
 	$product.append($(`<span class="special-product-price">`).text(special_price));
 	$product.append($(`<img src="https://st.depositphotos.com/2518853/3153/v/950/depositphotos_31537851-stock-illustration-vector-supermarket-cart.jpg" class="btn-add-to-cart">`));
-	//$product.append($(`button class="btn-add-to-cart">`));
 	return $product;
 };
-
 module.exports = _makeHtml;
