@@ -65,9 +65,15 @@ footer {
     border-style: inset;
     text-align: center;
     margin-bottom: 15px;
+    font-size: 15px;
+    text-transform: none;
 }
 .col-sm-6:hover {
 	cursor: pointer;
 	border-radius: 20px;
     background-color: cyan;
+}
+.crossed {
+	text-decoration: line-through;
+	color: #20c997;
 }

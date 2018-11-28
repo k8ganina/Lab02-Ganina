@@ -45,3 +45,17 @@ jQuery.ajax({
 		alert("An error occured: " + xhr.status + " " + xhr.statusText);
 	},
 });
+
+
+//button.onclick = function(event) {
+	//win = window.open("window.htm","win","height=300,width=300");
+//}
+  //var target = event.target; // где был клик?
+
+  //if (target.className != 'btn-add-to-cart') return; // не на cart? тогда не интересует
+
+  //highlight(target); // подсветить cart
+//};
+
+
+

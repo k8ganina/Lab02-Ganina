@@ -9,6 +9,7 @@ let $menu = $(`<div class="col-sm-6" data-menu-id="${id}">`);
  return $menu;
 }
 module.exports = _makeHtmlMenu;
-//button.onclick = function(){
-	//win = window.open("window.htm","win","height=300,width=300");
-//}
+
+
+
+
