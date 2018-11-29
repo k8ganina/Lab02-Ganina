@@ -6388,3 +6388,15 @@ footer, modal-footer {
   cursor: pointer;
   border-style: inset; }
 
+.product-info {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -200px;
+  color: azure;
+  background: darkcyan;
+  width: 400px;
+  height: 200px;
+  text-align: center; }
+

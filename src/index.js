@@ -56,3 +56,4 @@ $(document).on('click', '.menu-description', function(){
 $(document).on('click', '#all-products', function(){
 	showProducts($(this).data('product-id'));
 });
+

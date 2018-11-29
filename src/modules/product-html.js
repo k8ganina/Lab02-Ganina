@@ -15,13 +15,12 @@ let _makeHtml = ({
 		$product.append($(`<span class="special-product-price">`).text(special_price));
 	}
 	$product.append($(`<img src="https://st.depositphotos.com/2518853/3153/v/950/depositphotos_31537851-stock-illustration-vector-supermarket-cart.jpg" class="btn-add-to-cart">`));
-	$('.btn-add-to-cart').click(function() {
-		//alert("uueee");
-		win = window.open("window.htm","win","height=300,width=300");
-		//let _makeHtmlCart = document.createElement('div');
-		
-        //_makeHtmlCart.innerHTML = "<h1>Привет!</h1>";
-		});
+
+    $(function() {
+      $('.product-image').click(function(){
+        $('.product-info').fadeIn();
+      });
+    }); //під час натиснення на зображення товару вилазить віконечно, в якому має бути детальний опис товару
 
 	return $product;
 };
