@@ -19,22 +19,11 @@ body {
 	max-height: 200px;
 	object-fit: contain;
 }
-.btn-add-to-cart {
-	object-fit: contain;
-	max-height: 40px;
-	position: absolute;
-    bottom: 10px;
-    right: 20px;
-}
-.btn-add-to-cart:hover {
-	border-color: lightskyblue;
-	cursor: pointer;
-    border-style: inset;
-}
-header, footer {
+
+header, footer, .modal-header, .modal-footer {
   background-color: #20c997;
 }
-header {
+header, .modal-header {
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
@@ -42,7 +31,7 @@ header {
   font-weight: bold;
   font-size: 1.5em;
 }
-footer {
+footer, modal-footer {
   font-style: oblique;
   margin-top: 20px;
 }
@@ -76,4 +65,22 @@ footer {
 .crossed {
 	text-decoration: line-through;
 	color: #20c997;
+}
+.btn-info {
+  float: right;
+}
+#all-products {
+  float: left;
+}
+.btn-add-to-cart {
+  object-fit: contain;
+  max-height: 40px;
+  position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.btn-add-to-cart:hover {
+  border-color: lightskyblue;
+  cursor: pointer;
+    border-style: inset;
 }

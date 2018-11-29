@@ -18,17 +18,12 @@ let _makeHtml = ({
 	$('.btn-add-to-cart').click(function() {
 		//alert("uueee");
 		win = window.open("window.htm","win","height=300,width=300");
-	});
+		//let _makeHtmlCart = document.createElement('div');
+		
+        //_makeHtmlCart.innerHTML = "<h1>Привет!</h1>";
+		});
+
 	return $product;
 };
 module.exports = _makeHtml;
 
-//var cart = document.getElementsByClassName ("btn-add-to-cart");
-//cart.onclick = function(btn) {
-//	win = window.open("window.htm","win","height=300,width=300");
-
-  //var target = btn.target; // где был клик?
-
-  //if (target.className = 'btn-add-to-cart') return true; 
-  //console.log('cart');
-//}; //не работает
